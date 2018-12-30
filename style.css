@@ -1,0 +1,17 @@
+.container {
+
+    margin-top: 10px;
+
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+ }
+
+ #tabelle a {
+
+    text-decoration: none;
+    color: black;
+
+ }

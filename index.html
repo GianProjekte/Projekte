@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Meine Projekte</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Das neueste kompilierte und minimierte CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -19,39 +20,97 @@
 
 <body>
 
-    <div class="jumbotron">
-        <div class="container">
-            <h1>Willkommen auf der Webseite</h1>
-            <p>Hier sind alle meine grösseren Projekte vorhanden.</p>
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#meinModal">
-                Über mich
-            </button>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Willkommen auf der Webseite</h1>
+                <p>Hier sind alle meine grösseren Projekte vorhanden. Um zu den einzelnen Projekten zu gelangen,
+                    einfach auf das gewünschte Projekt drücken.</p>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#meinModal">
+                    Über mich
+                </button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="meinModal" tabindex="-1" role="dialog" aria-labelledby="meinModalLabel">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Schließen"><span
-                                    aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="meinModalLabel">Über mich</h4>
-                        </div>
-                        <div class="modal-body">
-                            Mein Nmae ist Gian und ich mache eine Ausbildung zum Informatiker. Zurzeit gefällt mir
-                            gesonders das schreiben und Programmieren von Internetseiten, deshalb vereine ich hier alle
-                            meinen kleineren Projekte.
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-info" data-dismiss="modal">Schließen</button>
-                            
+                <!-- Modal -->
+                <div class="modal fade" id="meinModal" tabindex="-1" role="dialog" aria-labelledby="meinModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Schließen"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="meinModalLabel">Über mich</h4>
+                            </div>
+                            <div class="modal-body">
+                                Mein Nmae ist Gian und ich mache eine Ausbildung zum Informatiker. Zurzeit gefällt mir
+                                gesonders das schreiben und Programmieren von Internetseiten, deshalb vereine ich hier
+                                alle
+                                meinen kleineren Projekte.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-info" data-dismiss="modal">Schließen</button>
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    
+        <div id="tabelle">
+
+            <table class="table table-hover table table-bordered">
+
+                <tr>
+
+                    <th>#</th>
+
+                    <th>Projekte</th>
+
+                    <th>Infos</th>
+
+                </tr>
+                <tr>
+
+                    <th>1</th>
+
+                    <td><a href="unterseiten/Informationsseite.html" target="_blank">Informationsseite</a></td>
+
+                    <td>Eine Seite, in der man sich über ein Thema informieren kann.</td>
+
+                </tr>
+                <tr>
+
+                    <th>2</th>
+
+                    <td><a href="unterseiten/Nachrichtenseite.html" target="_blank">Nachrichtenseite</a></td>
+
+                    <td>Einen einfache Nachrichtenseite, nur wenige Nachrichten.</td>
+
+                </tr>
+                <tr>
+
+                    <th>3</th>
+
+                    <td><a href="unterseiten/Reaktionstester.html" target="_blank">Reaktionstester</a></td>
+
+                    <td>Hier kann man seine Reaktionsfähigkeit testen.</td>
+
+                </tr>
+                <tr>
+
+                    <th>4</th>
+
+                    <td><a href="unterseiten/CodePlayer.html" target="_blank">Code-Player</a></td>
+
+                    <td>Das ist ein kleines Programm zum erstellen von Internetseiten, online.</td>
+
+                </tr>
+
+
+
+            </table>
+
+        </div>
+    </div>
 
 </body>
 
