@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LandingPage</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Das neueste kompilierte und minimierte CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optionales Theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- Das neueste kompilierte und minimierte JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <style>
+
+        .jumbotron {
+
+            background-image: url(../img/Jubotron-hintergrundbild1.jpg);
+
+            text-align: center;
+            color: white;
+            
+        }
+
+        #zusammenfassung {
+
+            text-align: center;
+
+        }
+        .card-img-top {
+
+            width:100%;
+
+        }
+
+        #footer {
+
+            background-color: aqua;
+            text-align: center;
+            padding: 50px 0;
+            margin-top: 50px;
+            width: 95%;
+
+        }
+    
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+
+
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+        <div class="container-fluid">
+            <!-- Titel und Schalter werden für eine bessere mobile Ansicht zusammengefasst -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Navigation ein-/ausblenden</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">App</a>
+            </div>
+
+            <!-- Alle Navigationslinks, Formulare und anderer Inhalt werden hier zusammengefasst und können dann ein- und ausgeblendet werden -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#jumbotron">Home <span class="sr-only">(aktuell)</span></a></li>
+                    <li><a href="#mehrinfos">Über die App</a></li>
+                    <li><a href="#footer">Downloads</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                            <input type="password" class="form-control" placeholder="Passwort">
+                        </div>
+                        <button type="submit" class="btn btn-success">Login</button>
+                    </form>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="jumbotron" id="jumbotron">
+        <div class="container">
+            <h1>Meine tolle App</h1>
+            <p>Warum du dir diese App umgedingt herunterladen musst!</p>
+            <hr>
+            <p>Möchtest du mehr über die App erfaren? Dann trag dich doch in die Mailingliste ein.</p>
+            <form class="form-inline">
+                <div class="input-group">
+                    <span class="input-group-addon">@</span>
+                    <input type="email" class="form-control" for="mailingliste" aria-label="Summe (gerundet zum nächsten ganzen Euro)"
+                        placeholder="Deine Email-Adresse">
+
+
+                </div>
+
+                <button class="btn btn-primary">Eintragen</button>
+
+
+
+            </form>
+        </div>
+    </div>
+
+    <div class="container" id="mehrinfos">
+
+        <div class="row" id="zusammenfassung">
+
+            <h1>Darum ist unsere App so toll!</h1>
+            <p class="lead">Zusammenfassung der tollen Features!</p>
+
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img class="card-img-top" src="../img/Vorschau.png" alt="Vorschaubild">
+                <div class="caption">
+                    <h3>Mehr Infos zur App</h3>
+                    <p>Das Online-Lexikon Wikipedia hat sich für viele zu einem unverzichtbaren Hilfsmittel bei der
+                        Recherche entwickelt – egal ob für Schüler, Stunden oder andere Wissbegierige. Wie praktisch
+                        ist es daher, dass man das ganze Wissen von Wikipedia jederzeit bei sich tragen kann.
+                        </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img class="card-img-top" src="../img/Vorschau.png" alt="Vorschaubild">
+                <div class="caption">
+                    <h3>Mehr Infos zur App</h3>
+                    <p>Das Online-Lexikon Wikipedia hat sich für viele zu einem unverzichtbaren Hilfsmittel bei der
+                        Recherche entwickelt – egal ob für Schüler, Stunden oder andere Wissbegierige. Wie praktisch
+                        ist es daher, dass man das ganze Wissen von Wikipedia jederzeit bei sich tragen kann.
+                        </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img class="card-img-top" src="../img/Vorschau.png" alt="Vorschaubild">
+                <div class="caption">
+                    <h3>Mehr Infos zur App</h3>
+                    <p>Das Online-Lexikon Wikipedia hat sich für viele zu einem unverzichtbaren Hilfsmittel bei der
+                        Recherche entwickelt – egal ob für Schüler, Stunden oder andere Wissbegierige. Wie praktisch
+                        ist es daher, dass man das ganze Wissen von Wikipedia jederzeit bei sich tragen kann.
+                        </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="footer"> 
+
+        <div class="row">
+
+            <h2>Lade die App herunter</h2>
+
+            <p><a href=""><img src="../img/playstore.png" alt="Playstore Bild" width="320px"/></a> 
+                 <a href=""><img src="../img/appstore bild.png" alt="Appstore Bild" width="320px"></a></p>
+
+        </div>
+
+    </div>
+
+    <script>
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>
